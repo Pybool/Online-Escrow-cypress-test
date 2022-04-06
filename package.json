@@ -1,0 +1,33 @@
+{
+  "name": "cypress_end2end_automation",
+  "version": "1.0.0",
+  "description": "cypress e2e automation",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "start": "cypress run --config-file cypress.json --headed"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "automation"
+  ],
+  "author": "Eko",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "cypress-xpath": "^1.6.2",
+    "fs-extra": "^9.1.0",
+    "move-file": "^2.1.0",
+    "mv": "^2.1.1",
+    "step_definitions": "cypress/integration/**/*"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-image-diff-js": "^1.12.0"
+  }
+}

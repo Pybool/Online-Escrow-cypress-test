@@ -1,0 +1,11 @@
+{
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+  "viewportWidth": 1900,
+  "pluginsFile":"cypress/plugins",
+  "viewportHeight": 790,
+  "Baseurl":"http:localhost:4200/",
+  "video": false
+  
+  
+}

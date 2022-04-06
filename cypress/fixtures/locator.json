@@ -1,0 +1,10 @@
+{
+    
+    
+"login_loginemail_button":"button[@placeholder='email']",
+"login_password_button":"button[@placeholder='password']"
+
+
+
+
+}
